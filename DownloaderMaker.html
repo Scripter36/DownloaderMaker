@@ -1,0 +1,25 @@
+<html>
+<meta charset="utf-8">
+<body>
+    <script src="DownloaderMaker.js"></script>
+    <font size="2" face="Roboto">
+        <div id="listdiv">
+            List File<br>
+            URL: <input type="text" id="listURL"></input>
+        </div>
+        Screen Button Text: <input type="text" id="screenbuttontext"></input><br>
+        Main Window Title: <input type="text" id="mainwindowtitle"></input><br>
+        Main Window Title Color: <input type="text" id="mainwindowtitlecolor" value="FFFFFF" onchange="colorChange(0);"></input><br>
+        Main Color: <input type="text" id="maincolor" value="2196F3" onchange="colorChange(1);" style="background-color:2196F3"></input><br>
+        Language: <select id="language">
+            <option value="English" selected="selected">English</option>
+            <option value="Korean">Korean</option>
+        </select>
+        <input type="button" onclick="create()" value="CREATE!"></input><br>
+        Result:<br>
+        <textarea id="resultDiv" rows="10" cols="50">
+        </textarea>
+    </font>
+</body>
+
+</html>

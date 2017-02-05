@@ -1,0 +1,61 @@
+<html>
+
+<body>
+    <script src="ListMaker.js"></script>
+    <font size="2" face="Roboto">
+        <div id="scriptdiv">
+            Script/modPKG Files<br>
+            <div id="scriptURLdiv">
+                <div>
+                    URL: <input type="text" id="scriptURL1"></input>
+                    Title: <input type="text" id="scripttitle1"></input>
+                    SubTitle: <input type="text" id="scriptsubtitle1"></input>
+                    Path: <input type="text" id="scriptpath1"></input>
+                </div>
+            </div>
+            <input type="button" onclick="addURL('script');" value="+"></input>
+        </div>
+        <div id="mapdiv">
+            Map Files<br>
+            <div id="mapURLdiv">
+                <div>
+                    URL: <input type="text" id="mapURL1"></input>
+                    Title: <input type="text" id="maptitle1"></input>
+                    SubTitle: <input type="text" id="mapsubtitle1"></input>
+                    Path: <input type="text" id="mappath1"></input>
+                </div>
+            </div>
+            <input type="button" onclick="addURL('map');" value="+"></input>
+        </div>
+        <div id="apkdiv">
+            APK Files<br>
+            <div id="apkURLdiv">
+                <div>
+                    URL: <input type="text" id="apkURL1"></input>
+                    Title: <input type="text" id="apktitle1"></input>
+                    SubTitle: <input type="text" id="apksubtitle1"></input>
+                    Path: <input type="text" id="apkpath1"></input>
+                </div>
+            </div>
+            <input type="button" onclick="addURL('apk');" value="+"></input>
+        </div>
+        <div id="otherdiv">
+            Other Files<br>
+            <div id="otherURLdiv">
+                <div>
+                    URL: <input type="text" id="otherURL1"></input>
+                    Title: <input type="text" id="othertitle1"></input>
+                    SubTitle: <input type="text" id="othersubtutle1"></input>
+                    Path: (sdcard/)<input type="text" id="otherpath1"></input>
+                </div>
+            </div>
+            <input type="button" onclick="addURL('other');" value="+"></input>
+        </div>
+        <input type="button" onclick="create()" value="CREATE!"></input><br>
+        Result:<br>
+        <div id="resultDiv">
+        </div>
+    </font>
+</body>
+
+</html>
