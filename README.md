@@ -12,4 +12,4 @@ How to use:
 5. Open <a href="https://rawgit.com/Scripter36/DownloaderMaker/master/DownloaderMaker.html">DownloaderMaker.html</a>
 6. Write 4's File URL that you uploaded and write some settings
 7. just Click `CREATE!` Button to create Script
-8. Paste 7's Script and Share it!
+8. Paste 7's Script to a File and Share it!
